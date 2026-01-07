@@ -1,0 +1,136 @@
+[
+  {
+    "unit_id": "001",
+    "title": "基本的な挨拶",
+    "level": "beginner",
+    "description": "日常的な挨拶表現のディクテーション練習",
+    "exercises": [
+      {
+        "id": 1,
+        "text": "Hello, how are you?",
+        "hint": "基本的な挨拶",
+        "difficulty": "easy",
+        "japanese": "こんにちは、元気ですか？"
+      },
+      {
+        "id": 2,
+        "text": "Nice to meet you.",
+        "hint": "初対面の挨拶",
+        "difficulty": "easy",
+        "japanese": "お会いできて嬉しいです。"
+      },
+      {
+        "id": 3,
+        "text": "Thank you very much for your help.",
+        "hint": "感謝の表現",
+        "difficulty": "medium",
+        "japanese": "お手伝いいただき、ありがとうございます。"
+      },
+      {
+        "id": 4,
+        "text": "Could you please repeat that?",
+        "hint": "聞き返しの表現",
+        "difficulty": "medium",
+        "japanese": "もう一度言っていただけますか？"
+      },
+      {
+        "id": 5,
+        "text": "I appreciate your cooperation.",
+        "hint": "丁寧な感謝",
+        "difficulty": "hard",
+        "japanese": "ご協力に感謝します。"
+      }
+    ],
+    "settings": {
+      "voice": "en-US",
+      "speed": 1.0,
+      "repeat_allowed": 3
+    }
+  },
+  {
+    "unit_id": "002",
+    "title": "日常会話",
+    "level": "intermediate",
+    "description": "日常生活でよく使われる表現のディクテーション",
+    "exercises": [
+      {
+        "id": 1,
+        "text": "What time does the meeting start?",
+        "hint": "時間に関する質問",
+        "difficulty": "easy"
+      },
+      {
+        "id": 2,
+        "text": "I'm looking forward to seeing you tomorrow.",
+        "hint": "期待を表す表現",
+        "difficulty": "medium"
+      },
+      {
+        "id": 3,
+        "text": "Would you mind if I opened the window?",
+        "hint": "丁寧な依頼",
+        "difficulty": "hard"
+      },
+      {
+        "id": 4,
+        "text": "I'm afraid I can't make it to the party.",
+        "hint": "断りの表現",
+        "difficulty": "hard"
+      },
+      {
+        "id": 5,
+        "text": "That sounds like a great idea!",
+        "hint": "同意・賛成の表現",
+        "difficulty": "medium"
+      }
+    ],
+    "settings": {
+      "voice": "en-US",
+      "speed": 1.1,
+      "repeat_allowed": 2
+    }
+  },
+  {
+    "unit_id": "generated_001",
+    "title": "Learning Tech Words: Programming, Code, and Tools",
+    "level": "beginner",
+    "description": "This AI-generated unit helps beginner English learners practice listening and writing skills using common terms from the world of programming and software development.",
+    "exercises": [
+      {
+        "id": 1,
+        "text": "I want to start learning programming.",
+        "hint": "The first word is 'I'. 'Programming' is a long word that means creating software.",
+        "difficulty": "easy"
+      },
+      {
+        "id": 2,
+        "text": "Can you write some Python code?",
+        "hint": "'Python' starts with a capital P and is a popular programming language. 'Code' is the set of instructions for a computer.",
+        "difficulty": "easy"
+      },
+      {
+        "id": 3,
+        "text": "Many people use VSCode to write code.",
+        "hint": "VSCode is often written as one word. It's a popular editor for writing 'code'.",
+        "difficulty": "medium"
+      },
+      {
+        "id": 4,
+        "text": "A: What is Flutter? B: It is a tool for building apps.",
+        "hint": "'Flutter' starts with F-L-U-T-T-E-R. It is a framework for creating mobile applications.",
+        "difficulty": "medium"
+      },
+      {
+        "id": 5,
+        "text": "I use Python in VSCode for my programming projects with Flutter.",
+        "hint": "This sentence combines several keywords: Python, VSCode, programming, and Flutter. Listen carefully to the sequence.",
+        "difficulty": "hard"
+      }
+    ],
+    "settings": {
+      "voice": "en-US",
+      "speed": 1.0,
+      "repeat_allowed": 3
+    }
+  }
+]
