@@ -48,7 +48,6 @@ class _PracticeScreenState extends State<PracticeScreen> {
   void _startRandomPractice() {
     if (_randomExercises.isNotEmpty) {
       // Create a virtual unit for random exercises
-      final firstExercise = _randomExercises[0]['exercise'] as Exercise;
       final virtualUnit = Unit(
         unitId: 'random',
         title: 'Random Practice',

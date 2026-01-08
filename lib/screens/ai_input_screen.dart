@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import '../models/unit.dart';
 import '../services/ai_service.dart';
 import 'practice_screen.dart';
 

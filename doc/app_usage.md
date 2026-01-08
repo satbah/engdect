@@ -69,6 +69,37 @@ flutter run -d macos   # For macOS
 - Speech speed: Adjustable for difficulty
 - Audio quality: MP3 format
 
+## Settings
+
+Access the Settings screen from the main menu to configure:
+
+### AI Configuration
+1. **API Type**: Choose between Google Gemini or OpenAI Compatible
+   - **Google Gemini**: Cloud-based AI service
+   - **OpenAI Compatible**: Local or self-hosted AI servers
+
+2. **API Endpoint** (OpenAI Compatible only)
+   - Enter the full endpoint URL
+   - Examples:
+     - Ollama: `http://localhost:11434/v1/chat/completions`
+     - Anaconda AI Navigator: `http://192.168.1.4:PORT/v1/chat/completions`
+     - LM Studio: `http://localhost:1234/v1/chat/completions`
+
+3. **API Key**
+   - For Gemini: Get from https://makersuite.google.com/app/apikey
+   - For local servers: Usually not required (leave empty)
+   - Toggle visibility with the eye icon
+
+4. **Model Name**
+   - Gemini examples: `gemini-2.5-flash`, `gemini-2.0-flash-exp`
+   - Local model examples: `llama3.2`, `qwen2.5`
+
+### Display Options
+- **Show Japanese translation in results**: Toggle Japanese translation display
+
+### Saving Settings
+Click **Save Settings** to apply changes. Settings configured here take precedence over `.env` file values.
+
 ## Data Management
 
 ### Unit Storage
